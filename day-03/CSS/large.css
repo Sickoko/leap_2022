@@ -1,0 +1,6 @@
+body {
+    background-color: red;
+}
+.text-container {
+    flex-direction: column;
+}

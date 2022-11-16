@@ -1,0 +1,17 @@
+.img-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-section img{
+    border-radius: 10px;
+    width: 100%; 
+}
+
+.main{
+    display: flex;
+    margin-top: 10px;
+}
+.main img{
+    width: 16%;
+    border-radius: 10px;
+}

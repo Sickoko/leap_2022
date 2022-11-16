@@ -1,0 +1,28 @@
+.img-section{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img-section img{
+    border-radius: 10px;
+    width: 30%; 
+    margin-bottom: 10px;
+}
+
+.main{
+    display: flex;
+    margin-top: 10px;
+}
+.main img{
+    width: 16%;
+    border-radius: 10px;
+}
+.main h2,
+p {
+  padding-left: 10px;
+}
+aside{
+    border-radius: 15px;
+    background-color: #ccc;
+    width: 97%;
+    padding: 15px;
+}

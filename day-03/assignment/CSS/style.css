@@ -1,0 +1,29 @@
+.img-section {
+  display: flex;
+  justify-content: space-between;
+}
+.img-section img {
+  border-radius: 10px;
+  width: 16%;
+  height: auto;
+}
+
+.main {
+  display: flex;
+  margin-top: 60px;
+}
+.main img {
+  width: 16%;
+  border-radius: 10px;
+}
+.main h2,
+p {
+  padding-left: 10px;
+}
+aside{
+    border-radius: 15px;
+    background-color: #ccc;
+    width: 13%;
+    float: right;
+    padding: 15px;
+}
