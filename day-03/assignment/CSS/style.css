@@ -2,28 +2,36 @@
   display: flex;
   justify-content: space-between;
 }
+
 .img-section img {
+  object-fit: cover;
   border-radius: 10px;
   width: 16%;
-  height: auto;
 }
 
 .main {
   display: flex;
+  flex-wrap: wrap;
   margin-top: 60px;
 }
+
 .main img {
-  width: 16%;
+  object-fit: cover;
+  width: 10%;
   border-radius: 10px;
 }
-.main h2,
+
+.maintxt>h2,
 p {
   padding-left: 10px;
+  width: 85%;
 }
-aside{
-    border-radius: 15px;
-    background-color: #ccc;
-    width: 13%;
-    float: right;
-    padding: 15px;
+
+aside {
+  border-radius: 15px;
+  background-color: #ccc;
+  width: 13%;
+  float: right;
+  padding: 15px;
+  margin-top: -670px;
 }
