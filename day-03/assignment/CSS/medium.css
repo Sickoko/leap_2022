@@ -6,14 +6,13 @@
 
 .img-section img {
     border-radius: 10px;
-    width: 30%;
+    width: 100%;
     height: auto;
     margin-bottom: 20px;
 }
 
 .main {
     display: flex;
-    flex-wrap: wrap;
     margin-top: 60px;
 }
 
@@ -25,6 +24,7 @@
 
 .main h2,
 p {
+    float: right;
     padding-left: 10px;
 }
 
@@ -34,5 +34,5 @@ aside {
     width: 97%;
     float: none;
     padding: 15px;
-    margin-top: 30px;
+    margin-top: 0;
 }
