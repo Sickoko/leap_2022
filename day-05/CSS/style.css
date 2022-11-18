@@ -1,4 +1,6 @@
-
+.dropdown{
+    display: inline;
+}
 .dropdown-content{
     display: none;
 }
