@@ -15,37 +15,23 @@
 
   <body>
     <div class="container">
-      <div class="row bg-dark text-white px-5">
-        <div class="col-2 p-3 bg-info">Test</div>
-        <div class="col-8 p-3 bg-success">Test</div>
-        <div class="col-2 p-3 bg-warning">
-          <button
-            class="btn btn-secondary dropdown-toggle"
-            type="button"
-            id="dropdownMenuButton"
-            data-toggle="dropdown"
-            aria-haspopup="true"
-            aria-expanded="false"
-          >
-            Dropdown button
-          </button>
-          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-            <a class="dropdown-item" href="#">Service</a>
-            <a class="dropdown-item" href="#">Contact Us</a>
-            <a class="dropdown-item" href="#">Address</a>
-          </div>
-        </div>
+      <div class="row bg-dark text-white">
+        <div class="col-2 bg-info">Name</div>
+        <div class="col-8 bg-success">Menu</div>
+        <div class="col-2 bg-warning">Dropdown</div>
       </div>
     </div>
-    <div class="container bg-secondary">
+    <div class="container bg-secondary h-5">
       <div class="row">
-        <div class="col-4 bg-info">
-          <div class="col bg-light p-5 text-center">Image</div>
-          <div class="col">Links</div>
-          <div class="col">Links</div>
-          <div class="col">Links</div>
+        <div class="col-12 col-md-2 bg-success">
+          <div class="container">
+            <div class="col bg-light mt-3 w-25">Image</div>
+            <div class="col">Links</div>
+            <div class="col">Links</div>
+            <div class="col">Links</div>
+          </div>
         </div>
-        <div class="col-8 bg-secondary">
+        <div class="col-12 col-md-10 bg-secondary">
           <div class="row p-3">
             <div class="col-4">
               <div class="col bg-primary text-center">
@@ -66,26 +52,43 @@
               </div>
             </div>
             <div class="col-8 bg-light">
-              <div class="row p-3 h-75">
-                <div class="col-5 bg-info h-50">Image</div>
-                <div class="col bg-secondary">text</div>
-              </div>
-              <div class="row p-3">
-                <div class="col-12 bg-secondary">Description Text</div>
+              <div class="container">
+                <div class="row pt-3">
+                  <div class="col-5 bg-info">Image</div>
+                  <div class="col bg-secondary">text</div>
+                </div>
+                <div class="row">
+                  <div class="col bg-secondary">text</div>
+                </div>
+                <div class="row pt-3">
+                  <div class="col-12 bg-secondary">Description Text</div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="container text-center d-flex">
-            <div class="row p-3 ps-3">
-              <div class="col align-self-start">Settings</div>
-              <div class="col align-self-center">toggle</div>
-              <div class="col align-self-center">select</div>
-              <div class="col align-self-center">input</div>
-              <div class="col col align-self-end">Cancel Button</div>
-              <div class="col col align-self-end">Save button</div>
+          <div class="container bg-light">
+            <div class="container text-center d-flex justify-content-between">
+              <div class="row">
+                <div class="col">Settings</div>
+                <div class="col bg-info me-3">toggle</div>
+                <div class="col bg-info me-3">select</div>
+                <div class="col bg-info me-3">input</div>
+              </div>
+            </div>
+            <div class="container d-flex justify-content-end">
+              <div class="row">
+                <div class="col bg-primary me-3">Cancel button</div>
+                <div class="col bg-primary">Save button</div>
+              </div>
             </div>
           </div>
         </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-10 bg-warning">footer-text1footertext2</div>
+        <div class="col-2 bg-warning">footer-text3</div>
       </div>
     </div>
     <script
