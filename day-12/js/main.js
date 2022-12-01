@@ -105,7 +105,7 @@ const PhoneNumber = prompt("Give me your Phone Number");
 
 const PhoneChar = PhoneNumber.substr(0);
 const Phonenum = PhoneNumber.substr(1, 4);
-const PhoNum = PhoneNumber.substr(5``, 12);
+const PhoNum = PhoneNumber.substr(5``   , 12);
 
 if (
   !Number.isInteger(Number(PhoneChar)) &&
