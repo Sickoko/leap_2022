@@ -82,7 +82,7 @@
 // while (count <= 10){
 //     console.log(count);
 //     count = count + 1;
-// }    
+// }
 
 // console.log('loop ended')
 
@@ -96,15 +96,17 @@
 // }
 // console.log("game over");
 
-let max = Number(prompt('give a number'));
-let count = 1;
+// let max = Number(prompt("give a number"));
+// let count = 1;
 
-let sum = 0;
+// let sum = 0;
 
-while (count <= max){
-    // console.log(count);
-    count = count + 1;
-    sum = sum + count; 
-    console.log(count);
-    console.log(sum);
-}
+// while (count <= max) {
+//   // console.log(count);
+//   count = count + 1;
+//   sum = sum + count;
+//   console.log(count);
+//   console.log(sum);
+// }
+
+
