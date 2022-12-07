@@ -14,4 +14,4 @@ function findMax(x, y) {
   }
 }
 
-findMax(Number(prompt('Give a number')),Number(prompt('Give another number')))
+findMax(Number(prompt("Give a number")), Number(prompt("Give another number")));
