@@ -24,11 +24,11 @@ for(const max = 10; start <= max; start++){
 //   }
 //   start = start + 1;
 // }
-for(const min = 20; start <= min; start++){
-    if (start % 2 != 0){
-        console.log(start)
-    }
-}
+// for(const min = 20; start <= min; start++){
+//     if (start % 2 != 0){
+//         console.log(start)
+//     }
+// }
 // let str = "life is beautiful";
 // let count = 0;
 
@@ -37,10 +37,10 @@ for(const min = 20; start <= min; start++){
 //     count = count + 1;
 // }
 
-let str = "life is beautiful";
-for (let count = 0; count < str.length; count++) {
-  console.log(str.charAt(count));
-}
+// let str = "life is beautiful";
+// for (let count = 0; count < str.length; count++) {
+//   console.log(str.charAt(count));
+// }
 // const mi = 20;
 // let minStart = 1;
 
