@@ -28,33 +28,3 @@ whatDoesTheFoxSay(animals, "cow");
 console.log("Cat meowing");
 whatDoesTheFoxSay(animals, "cat");
 
-//ex-3
-
-function findOlderStudents(students) {
-  for (let i = 0; i < array.length; i++) {
-    if (2022 - students.yearOfBirth > 20) {
-      console.log(students.name);
-    }
-  }
-}
-
-const students = [
-  {
-    name: "Usukhbayar",
-    yearOfBirth: 2003,
-    hobby: "Video games",
-    single: true,
-  },
-  {
-    name: "Dondog",
-    yearOfBirth: 2001,
-    hobby: "Basketball",
-    single: false,
-  },
-  {
-    name: "Bat",
-    yearOfBirth: 1999,
-    hobby: "Football",
-    single: false,
-  },
-];
